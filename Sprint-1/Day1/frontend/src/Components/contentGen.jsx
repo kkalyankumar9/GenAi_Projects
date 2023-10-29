@@ -36,7 +36,7 @@ const Shayari = () => {
    
     setIsLoading(true)
     try {
-      const response = await axios.post(`http://localhost:8000/get?type=${type}`, { keyword }, {
+      const response = await axios.post(`https://content-generator1.onrender.com/get?type=${type}`, { keyword }, {
         headers: {
           'Content-Type': 'application/json',
         },
