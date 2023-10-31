@@ -108,7 +108,7 @@ def order_dish(menu,order):
 
 def status_update(order):
     for order_item in order:
-        print(f"Dish ID: {order_item['order_id']}, Dish Name: {order_item['status']}")
+        print(f"Order ID: {order_item['order_id']}, Order Status: {order_item['status']}")
     status_input =input("which order status update through by dish name or id:")
     for dish in order:
         if str(dish["order_id"])==status_input   :
