@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-
+users=[]
 @app.route('/create', methods=['POST'])
 def create_user_data():
     data = request.get_json()
