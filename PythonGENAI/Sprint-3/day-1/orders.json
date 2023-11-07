@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "customer_name": "John Doe",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Pasta",
+                "price": 12.99
+            },
+            {
+                "id": 2,
+                "name": "Pizza",
+                "price": 14.99
+            }
+        ],
+        "status": "completed"
+    },
+    {
+        "id": 2,
+        "customer_name": "kalyan",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Pasta",
+                "price": 12.99
+            },
+            {
+                "id": 2,
+                "name": "Pizza",
+                "price": 14.99
+            },
+            {
+                "id": 4,
+                "name": "Salad",
+                "price": 7.99
+            }
+        ],
+        "status": "received"
+    },
+    {
+        "id": 3,
+        "customer_name": "John Doe",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Pasta",
+                "price": 12.99
+            },
+            {
+                "id": 2,
+                "name": "Pizza",
+                "price": 14.99
+            }
+        ],
+        "status": "received"
+    },
+    {
+        "id": 4,
+        "customer_name": "John Doe",
+        "dishes": [
+            {
+                "id": 1,
+                "name": "Pasta",
+                "price": 12.99
+            },
+            {
+                "id": 2,
+                "name": "Pizza",
+                "price": 14.99
+            }
+        ],
+        "status": "received"
+    }
+]
