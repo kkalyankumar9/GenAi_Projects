@@ -204,3 +204,25 @@ dist
 
 # Local Netlify folder
 .netlify
+
+# .gitignore
+
+# Ignore virtual environments
+venv/
+
+# Ignore environment files
+.env
+
+
+# Ignore pycache
+__pycache__/
+
+
+
+# Ignore local development configuration
+instance/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
